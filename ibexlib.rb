@@ -1,4 +1,4 @@
-class IbexLib < Formula
+class Ibexlib < Formula
   desc "C++ library for constraint processing over real numbers"
   homepage "http://www.ibex-lib.org/"
   url "https://github.com/ibex-team/ibex-lib/archive/ibex-2.8.6.tar.gz"
