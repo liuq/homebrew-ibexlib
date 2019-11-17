@@ -27,9 +27,9 @@ class Ibexlib < Formula
     system "./waf", "configure", "--prefix=#{prefix}",
                                  "--enable-shared",
                                  "--lp-lib=soplex",
-                                 "--with-optim"
-#                                 "--with-jni",
-#                                 "--java-package-name=org.chocosolver.solver.constraints.real"
+                                 "--with-optim",
+                                 "--with-jni",
+                                 "--java-package-name=org.chocosolver.solver.constraints.real"
     system "./waf", "install"
 
     pkgshare.install %w[examples plugins/solver/benchs]
